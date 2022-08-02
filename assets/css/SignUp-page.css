@@ -9,7 +9,7 @@
   }
   
   .bg-image {
-    background-image: url('../vendor/images/signup-bg.jpg');
+    background-image: url('../vendors/images/signup-bg.jpg');
   /*  background-size: cover;*/
     overflow: hidden;
     background-position: right;
