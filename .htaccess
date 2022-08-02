@@ -1,0 +1,11 @@
+RewriteEngine On
+
+RewriteCond %{THE_REQUEST} /(app|vendor|views)/.+ [NC]
+RewriteRule ^ - [R=403,L]
+
+RewriteBase /
+RewriteCond %{REQUEST_URI} !\.(?:css|js|jpe?g|gif)$ [NC]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)$ index.php [QSA,L]
+
