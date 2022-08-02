@@ -50,9 +50,9 @@ class Pages{
 
     public function Loader(){
         
-        $str= "<link href=\"$this->base_url.$this->base_dir/assets/vendors/bootstrap/css/bootstrap.min.css\" rel=\"stylesheet\">
-        <script src=\"$this->base_url.$this->base_dir/assets/vendors/jquery/jquery.min.js\"></script>
-        <script src=\"$this->base_url.$this->base_dir/assets/vendors/bootstrap/js/bootstrap.bundle.min.js\"></script><link href=\"$this->base_url.$this->base_dir/assets/css/{$this->Page}-page.css\" rel=\"stylesheet\">";
+        $str= "<link href=\"$this->base_url$this->base_dir/assets/vendors/bootstrap/css/bootstrap.min.css\" rel=\"stylesheet\">
+        <script src=\"$this->base_url$this->base_dir/assets/vendors/jquery/jquery.min.js\"></script>
+        <script src=\"$this->base_url$this->base_dir/assets/vendors/bootstrap/js/bootstrap.bundle.min.js\"></script><link href=\"$this->base_url.$this->base_dir/assets/css/{$this->Page}-page.css\" rel=\"stylesheet\">";
         return $str;
     }
 }
