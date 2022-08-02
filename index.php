@@ -13,7 +13,7 @@ $Handler = new Pages($base_url,$base_dir);
 
 
 $tmp = explode("?", $_SERVER['REQUEST_URI']);
-$current_route = ltrim(strtolower(str_replace($base_dir, '', $tmp[0])),'/');
+$current_route = ltrim(strtolower(str_replace($base_dir."/", '', $tmp[0])),'/');
 $current_route_array = explode('/',ltrim(str_replace($base_dir, '', $tmp[0])));
 unset($tmp);
 
