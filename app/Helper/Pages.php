@@ -15,15 +15,15 @@ class Pages{
             $this->Pages =["Home","Contact","About","Panel","Log Out"];
              if($user->type != 'admin'){
                
-                $this->addrs =["Home"=>$this->base_url.$this->base_dir,"Contact"=>"$this->base_url.$this->base_dir/contact.php","About"=>"$this->base_url.$this->base_dir/about.php","Panel"=>"$this->base_url.$this->base_dir/user","Log Out"=>"$this->base_url.$this->base_dir/logout.php"];
+                $this->addrs =["Home"=>$this->base_url.$this->base_dir,"Contact"=>"$this->base_url$this->base_dir/contact.php","About"=>"$this->base_url$this->base_dir/about.php","Panel"=>"$this->base_url$this->base_dir/user","Log Out"=>"$this->base_url$this->base_dir/logout.php"];
                 
              }else{
            
-            $this->addrs =["Home"=>$this->base_url.$this->base_dir,"Contact"=>"$this->base_url.$this->base_dir/contact.php","About"=>"$this->base_url.$this->base_dir/about.php","Panel"=>"$this->base_url.$this->base_dir/admin","Log Out"=>"$this->base_url.$this->base_dir/logout.php"];
+            $this->addrs =["Home"=>$this->base_url.$this->base_dir,"Contact"=>"$this->base_url$this->base_dir/contact.php","About"=>"$this->base_url$this->base_dir/about.php","Panel"=>"$this->base_url$this->base_dir/admin","Log Out"=>"$this->base_url$this->base_dir/logout.php"];
              }
         } else{
             $this->Pages =["Home","Contact","About","SignUp","Login"];
-            $this->addrs =["Home"=>"$this->base_url.$this->base_dir","Contact"=>"$this->base_url.$this->base_dir/contact.php","About"=>"$this->base_url.$this->base_dir/about.php","SignUp"=>"$this->base_url.$this->base_dir/signup.php","Login"=>"$this->base_url.$this->base_dir/login.php"];
+            $this->addrs =["Home"=>"$this->base_url$this->base_dir","Contact"=>"$this->base_url$this->base_dir/contact.php","About"=>"$this->base_url$this->base_dir/about.php","SignUp"=>"$this->base_url$this->base_dir/signup.php","Login"=>"$this->base_url$this->base_dir/login.php"];
         
          }
     }
