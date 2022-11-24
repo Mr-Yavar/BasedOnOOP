@@ -1,11 +1,11 @@
 # BasedOnOOP
 
 ### Screen Shots:
-- Home Page :
+- Home page :
 ![home page](https://i.imgur.com/feu7mk6.jpg)
 
 - About :
 ![img](https://i.imgur.com/ejbqAeY.png)
 
-- SignUP:
+- Sign up:
 ![img](https://i.imgur.com/toqkBLM.jpg)
